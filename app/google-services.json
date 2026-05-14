@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "619607823480",
+    "firebase_url": "https://shaale-vikas-991c5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "shaale-vikas-991c5",
+    "storage_bucket": "shaale-vikas-991c5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619607823480:android:a6667caf48e2f70d3ac98d",
+        "android_client_info": {
+          "package_name": "com.shaale_vikas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEuHLiXa8Kc_hvtM74yAnvZNS8GR8oTsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

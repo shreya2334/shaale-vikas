@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+
+    android:layout_margin="8dp"
+
+    app:cardCornerRadius="12dp"
+
+    app:cardElevation="4dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        android:padding="16dp">
+
+        <ImageView
+
+            android:id="@+id/ivNeedImage"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="180dp"
+
+            android:scaleType="centerCrop"
+
+            android:src="@mipmap/ic_launcher"
+
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+
+            android:id="@+id/tvStatus"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Ongoing"
+
+            android:textStyle="bold"
+
+            android:textColor="@android:color/holo_green_dark"
+
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+
+            android:id="@+id/tvTitle"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Need Title"
+
+            android:textSize="20sp"
+
+            android:textStyle="bold"
+
+            android:textColor="@android:color/black"/>
+
+        <TextView
+
+            android:id="@+id/tvDescription"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Need Description"
+
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+
+            android:id="@+id/tvAmount"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="₹5000"
+
+            android:textStyle="bold"
+
+            android:textColor="@android:color/holo_green_dark"
+
+            android:layout_marginTop="12dp"/>
+
+        <ProgressBar
+
+            android:id="@+id/progressBarNeed"
+
+            style="?android:attr/progressBarStyleHorizontal"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="12dp"
+
+            android:max="100"
+
+            android:progress="40"/>
+
+        <TextView
+
+            android:id="@+id/tvProgress"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="₹2000 raised"
+
+            android:textStyle="bold"
+
+            android:layout_marginTop="6dp"/>
+
+        <Button
+
+            android:id="@+id/btnPledge"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Pledge Support"
+
+            android:layout_marginTop="12dp"/>
+
+        <Button
+
+            android:id="@+id/btnComplete"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Mark Completed"
+
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+
+            android:id="@+id/tvDonors"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Donors:"
+
+            android:layout_marginTop="12dp"
+
+            android:textStyle="italic"/>
+
+        <ImageView
+
+            android:id="@+id/ivAfterImage"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="180dp"
+
+            android:scaleType="centerCrop"
+
+            android:layout_marginTop="12dp"
+
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
